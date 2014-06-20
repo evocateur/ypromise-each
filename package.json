@@ -1,0 +1,35 @@
+{
+  "name": "ypromise-each",
+  "version": "0.0.0",
+  "description": "Add an each() method to ypromise-based ES6 Promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "files": [
+    "index.js",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evocateur/ypromise-each.git"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "each",
+    "es6"
+  ],
+  "author": "Daniel Stockman <daniel.stockman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evocateur/ypromise-each/issues"
+  },
+  "homepage": "https://github.com/evocateur/ypromise-each",
+  "dependencies": {
+    "ypromise": "^0.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
